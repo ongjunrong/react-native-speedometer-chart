@@ -17,7 +17,7 @@ const Speedometer = (props) => {
   ) : null;
 
   const textElement = ((showText) && (text)) ? (
-    <Text style={[styles.text, textStyle]} numberOfLines={1}>{text}</Text>
+    <Text style={[styles.text, textStyle]}>{text}</Text>
   ) : null;
 
   const labelsElement = (showLabels) ? (
